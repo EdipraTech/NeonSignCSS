@@ -1,3 +1,8 @@
+:root {
+	--main: #f75093;
+	--secondary: #e9347c;
+}
+
 * {
 	background-color: black;
 }
@@ -6,59 +11,47 @@
 	src: url('/NeonSans.otf');
 }
 
-.flash1 {
-	animation: neonFlash1 4s infinite;
-	background-color: transparent;
-}
-.flash2 {
-	animation: neonFlash2 4s infinite;
+.flash {
+	animation: neonFlash 4s infinite;
 	background-color: transparent;
 }
 
-.neonSign1 {
+.neonSign {
 	font-family: 'Neon Sans';
 	vertical-align: middle;
 	text-align: center;
 	align-items: center;
 	padding: 0;
 	font-size: 42.5vh;
-	color: #f75093;
-	text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-		0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-		0 0 8rem #e9347c;
-}
-.neonSign2 {
-	font-family: 'Neon Sans';
-	vertical-align: middle;
-	text-align: center;
-	align-items: center;
-	padding: 0;
-	font-size: 42.5vh;
-	color: #f75093;
-	text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-		0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-		0 0 8rem #e9347c;
+	color: var(--main);
+	text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+		0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+		0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+		0 0 8rem var(--secondary);
 }
 
-@keyframes neonFlash1 {
+@keyframes neonFlash {
 	0% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
 	}
 	5% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
 	}
 	7% {
 		color: #5a1a34;
 		text-shadow: none;
 	}
 	9% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
 		color: #83284c;
 	}
 	11% {
@@ -66,9 +59,10 @@
 		text-shadow: none;
 	}
 	13% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
 		color: #83284c;
 	}
 	15% {
@@ -76,82 +70,24 @@
 		text-shadow: none;
 	}
 	17% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
 		color: #83284c;
 	}
 	19% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+		color: var(--main);
 	}
 	100% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
-	}
-}
-@keyframes neonFlash2 {
-	0% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
-	}
-	65% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
-	}
-	66% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-	}
-	68% {
-		color: #5a1a34;
-		text-shadow: none;
-	}
-	70% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
-		color: #83284c;
-	}
-	72% {
-		color: #5a1a34;
-		text-shadow: none;
-	}
-	74% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
-		color: #83284c;
-	}
-	76% {
-		color: #5a1a34;
-		text-shadow: none;
-	}
-	78% {
-		text-shadow: 0 0 0.5rem #f75093, 0 0 1rem #f75093, 0 0 1.5rem #f75093,
-			0 0 2rem #e9347c, 0 0 2.5rem #e9347c, 0 0 3rem #e9347c, 0 0 3.5rem #e9347c,
-			0 0 4rem #e9347c;
-		color: #83284c;
-	}
-	80% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
-	}
-	100% {
-		text-shadow: 0 0 1.5rem #f75093, 0 0 2rem #f75093, 0 0 3rem #f75093,
-			0 0 4rem #e9347c, 0 0 5rem #e9347c, 0 0 6rem #e9347c, 0 0 7rem #e9347c,
-			0 0 8rem #e9347c;
-		color: #f75093;
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+		color: var(--main);
 	}
 }
