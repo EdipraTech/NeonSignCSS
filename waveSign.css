@@ -1,0 +1,152 @@
+:root {
+	--main: #f75093;
+	--secondary: #e9347c;
+}
+
+* {
+	background-color: black;
+	color: var(--main);
+}
+@font-face {
+	font-family: 'Neon Sans';
+	src: url('/NeonSans.otf');
+}
+
+.neonSign {
+	font-family: 'Neon Sans';
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	padding: 0;
+	font-size: 35vh;
+	color: var(--main);
+	text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+		0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+		0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+		0 0 8rem var(--secondary);
+}
+
+.container {
+	display: inline-flex;
+}
+
+.col {
+	flex-direction: column;
+}
+
+.names {
+	font-family: 'Neon Sans';
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	padding: 0;
+	width: 95vw;
+	font-size: 5vh;
+	color: var(--main);
+	text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+		0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+		0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+		0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
+}
+.T,
+.E,
+.C,
+.H {
+	background-color: transparent;
+}
+.T {
+	animation: techT 8s infinite;
+	background-color: transparent;
+}
+.E {
+	animation: techE 8s infinite;
+	background-color: transparent;
+}
+.C {
+	animation: techC 8s infinite;
+	background-color: transparent;
+}
+.H {
+	animation: techH 8s infinite;
+	background-color: transparent;
+}
+@keyframes techT {
+	0% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	12.5% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	25% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+}
+@keyframes techE {
+	25% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	37.5% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	50% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+}
+@keyframes techC {
+	50% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	67.5% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	75% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+}
+@keyframes techH {
+	75% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	87.5% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	100% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+}
