@@ -1,1 +1,1 @@
-Neon Sign for a projector using HTML and CSS
+Neon Sign for a projector/monitor using HTML and CSS
