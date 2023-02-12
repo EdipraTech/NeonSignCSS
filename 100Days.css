@@ -1,0 +1,124 @@
+:root {
+	--main: #f75093;
+	--secondary: #e9347c;
+}
+
+* {
+	background-color: black;
+	color: var(--main);
+}
+@font-face {
+	font-family: 'Neon Sans';
+	src: url('/NeonSans.otf');
+}
+
+.flash {
+	animation: neonFlash 4s infinite;
+	background-color: transparent;
+}
+.flashRev {
+	animation: neonFlash 4s infinite reverse;
+	background-color: transparent;
+}
+
+.neonSign {
+	font-family: 'Neon Sans';
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	padding: 0;
+	font-size: 28vh;
+	color: var(--main);
+	text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+		0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+		0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+		0 0 8rem var(--secondary);
+}
+
+.container {
+	display: inline-flex;
+}
+
+.col {
+	flex-direction: column;
+}
+
+.names {
+	font-family: 'Neon Sans';
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	padding: 0;
+	width: 95vw;
+	font-size: 5vh;
+	color: var(--main);
+	text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+		0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+		0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+		0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
+}
+.transparent-bg {
+	background-color: transparent;
+}
+
+@keyframes neonFlash {
+	0% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	5% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	7% {
+		color: #5a1a34;
+		text-shadow: none;
+	}
+	9% {
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
+		color: #83284c;
+	}
+	11% {
+		color: #5a1a34;
+		text-shadow: none;
+	}
+	13% {
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
+		color: #83284c;
+	}
+	15% {
+		color: #5a1a34;
+		text-shadow: none;
+	}
+	17% {
+		text-shadow: 0 0 0.5rem var(--main), 0 0 1rem var(--main),
+			0 0 1.5rem var(--main), 0 0 2rem var(--secondary),
+			0 0 2.5rem var(--secondary), 0 0 3rem var(--secondary),
+			0 0 3.5rem var(--secondary), 0 0 4rem var(--secondary);
+		color: #83284c;
+	}
+	19% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+		color: var(--main);
+	}
+	100% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+		color: var(--main);
+	}
+}
