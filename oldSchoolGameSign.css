@@ -1,0 +1,55 @@
+:root {
+	--main: #ca2130;
+	--secondary: white;
+}
+
+* {
+	background-color: var(--main);
+}
+
+body {
+	margin-top: 6rem;
+}
+
+.border {
+	font-family: 'Anton', sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	padding: 0 7.5rem;
+	width: fit-content;
+	margin: 1vw auto;
+	font-size: 20vh;
+	font-weight: 550;
+	transform: scaleX(1.25);
+	border: 1.5rem solid var(--secondary);
+	border-radius: 20vh;
+	color: var(--secondary);
+}
+
+.container {
+	display: flex;
+}
+
+.col {
+	flex-direction: column;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+}
+
+.names {
+	font-family: 'Anton', sans-serif;
+	vertical-align: middle;
+	text-align: center;
+	align-items: center;
+	color: var(--secondary);
+	font-size: 7.5vh;
+	font-weight: 550;
+	transform: scaleX(1.25);
+	padding: 0 2rem;
+	margin: 0 auto;
+	border: 0.75rem solid var(--secondary);
+	border-radius: 20vh;
+}

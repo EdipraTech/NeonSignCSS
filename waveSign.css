@@ -83,20 +83,6 @@
 			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
 			0 0 11rem var(--secondary);
 	}
-	25% {
-		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
-			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
-			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
-			0 0 8rem var(--secondary);
-	}
-}
-@keyframes techE {
-	25% {
-		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
-			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
-			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
-			0 0 8rem var(--secondary);
-	}
 	37.5% {
 		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
 			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
@@ -110,12 +96,44 @@
 			0 0 8rem var(--secondary);
 	}
 }
-@keyframes techC {
-	50% {
+@keyframes techE {
+	12.5% {
 		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
 			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
 			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
 			0 0 8rem var(--secondary);
+	}
+	25% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	50% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	67.5% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+}
+@keyframes techC {
+	25% {
+		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
+			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
+			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
+			0 0 8rem var(--secondary);
+	}
+	37.5% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
 	}
 	67.5% {
 		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
@@ -131,19 +149,25 @@
 	}
 }
 @keyframes techH {
-	75% {
+	37.5% {
 		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
 			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
 			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
 			0 0 8rem var(--secondary);
 	}
-	87.5% {
+	50% {
 		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
 			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
 			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
 			0 0 11rem var(--secondary);
 	}
-	100% {
+	75% {
+		text-shadow: 0 0 4rem var(--main), 0 0 5rem var(--main),
+			0 0 6rem var(--main), 0 0 7rem var(--secondary), 0 0 8rem var(--secondary),
+			0 0 9rem var(--secondary), 0 0 10rem var(--secondary),
+			0 0 11rem var(--secondary);
+	}
+	87.5% {
 		text-shadow: 0 0 1.5rem var(--main), 0 0 2rem var(--main),
 			0 0 3rem var(--main), 0 0 4rem var(--secondary), 0 0 5rem var(--secondary),
 			0 0 6rem var(--secondary), 0 0 7rem var(--secondary),
